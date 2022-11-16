@@ -22,3 +22,14 @@ public class Main
       System.out.println("The friend is="+ friend);
    }
 }
+
+Bytes requires to all data types:
+byte-1
+short-2
+int- 4
+long -8
+float -4
+double-8
+char -2
+boolean- 1
+
