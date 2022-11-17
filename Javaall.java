@@ -1,4 +1,26 @@
-//first program 
+Topics:-
+	1.Comments
+	2.Hello World Print
+	3.Variables
+	4.Data types
+	5.Strings
+	6.Arrays
+	7.Casting
+	8.Constants
+	9.Operators(Artihmetic and Assignment)
+	10.Math class
+        11.Taking Input
+	12.Comparison Operators
+	13.Conditional Statments(if-else)
+	14.Logical Operators
+        15.Conditional Statments(Switch)
+        16.Loops
+	17.Break and Continue
+	18.Exception handling(try-catch)
+	19.Functions/Methods
+	20.Mini Project
+
+/first program 
 public class main
 {
   public static void main(String[] args)
@@ -191,5 +213,102 @@ public class FirstProgram
   }
 }
 
+
+13)) //Constant
+
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	final int age=30;   //This value doesn't change
+	System.out.println(age);
+	
+  }
+}
+
+
+14))
+//Math Function
+//max
+//min
+//random
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	System.out.println(Math.max(5, 6));
+	System.out.println(Math.min(5, 6));
+	
+	System.out.println(Math.random()); //all value form in Long type
+	System.out.println((int)(Math.random()*100)); //
+  }
+}
+
+
+
+15))How to take Input in java:-
+
+import java.util.Scanner;
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	Scanner sc=new Scanner(System.in);
+	System.out.print("The value is= ");
+	int a=sc.nextInt();
+	System.out.println("The final value is= "+a);
+  }
+} 
+
+16))How to take String Input in Java:-
+
+import java.util.Scanner;
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	Scanner sc=new Scanner(System.in);
+	System.out.print("The value is= ");
+	String a=sc.nextLine();
+	System.out.println("The final value is= "+a);
+  }
+} 
+
+
+17))
+//Comparison Operators
+//a==b
+//a!=b
+//a<b
+//a>b
+//a>=b
+//a<=b
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	boolean isSunup=true;
+	if(isSunup==true)
+	 System.out.println("Day");
+    
+	else
+      System.out.println("Night");
+  }
+} 
+
+
+18))
+	public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	int age=30;
+	if(age>18)
+	  System.out.println("can vote");
+	
+	else
+		System.out.println("can't vote");
+  }
+} 
 
 
