@@ -96,3 +96,100 @@ public class FirstProgram
 	 System.out.println(Finalname);
   }
 }
+
+
+8))Array
+//Array is also non-primitive data types
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	int[] marks=new int[3];
+	marks[0]=97;
+	marks[1]=78;
+	marks[2]=91;
+	System.out.println(marks[2]);
+  }
+}
+
+
+9))
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	boolean[] marks=new boolean[3];
+	System.out.println(marks[2]);
+    
+  }
+}
+
+
+10))Length of the Array find:
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	int[] marks=new int[3];
+	marks[0]=97;
+	marks[1]=78;
+	marks[2]=91;
+	System.out.println(marks.length);
+  }
+}
+
+
+11))2d array and 1d array
+
+import java.util.Arrays;
+//Array is also non-primitive data types
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	  int [] marks= {97,98,95};  //1d array
+	  
+	  int[][] finalmarks= {{97,98,90} , {100,67,79}}; //2d array
+	  
+	  System.out.println(finalmarks[0][1]); 
+  }
+}
+
+
+11))Sort function using in Java
+
+import java.util.Arrays;
+//Array is also non-primitive data types
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	int[] marks=new int[3];
+	marks[0]=97;
+	marks[1]=78;
+	marks[2]=91;
+	System.out.println(marks[0]);
+	Arrays.sort(marks);
+	System.out.println(marks[0]);
+	System.out.println(marks[1]);
+    
+  }
+}
+
+
+12))//Casting
+public class FirstProgram 
+{
+  public static void main(String[] args)
+  {
+	 int price=100;
+	 int finalprice= price+ (int)18.99;  //implicit casting
+	 
+	 System.out.println("The finalprice is= "+finalprice);
+	 //Answer is 118
+	  
+  }
+}
+
+
+
