@@ -1,4 +1,5 @@
 Best Site to Learn Data Science 
+...................................
 Coursera
 edX
 Udemy
@@ -8,6 +9,7 @@ DataCamp
 Kaggle
 
 1 progaram
+............
 rent=1220
 gas=202.5
 groceries=305.6
@@ -17,8 +19,52 @@ print(total)
 
 
 2 program
+............
 rent=1440
 item1="rent"
 item2="gas"
 item3="groceries"
 print("Expenses items:",item1,item2,item3)
+
+
+OPERATORS
+.............
+Arithmetic Operators
+addition
+subtra
+multiplica
+division
+remainder/modulus
+exponent
+
+ORDER OF OPERATION:-
+......................
+paranthesis
+Exponent(^)
+multi and div(left to right)
+add and sub(left to right)
+
+RATIONAL AND LOGICAL OPERATORS:
+.................................
+greater than
+less than
+greater than/equal
+less than/equal
+equal to
+
+ model1<-'hello'
+> model1
+[1] "hello"
+> typeof(model1)
+[1] "character"
+> hello_string<-"Hii Diganta"
+> hello_string
+[1] "Hii Diganta"
+> 2pairs<-100
+Error: unexpected symbol in "2pairs"
+> .2pairs<-100
+Error: unexpected symbol in ".2pairs"
+> .pairs<-100
+> .pairs
+[1] 100
+> 
