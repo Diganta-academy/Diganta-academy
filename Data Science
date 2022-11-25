@@ -68,3 +68,45 @@ Error: unexpected symbol in ".2pairs"
 > .pairs
 [1] 100
 > 
+
+
+DATE
+...........
+
+
+LOGICAL OPERATORS
+...................
+> 5==7
+[1] FALSE
+> 5==5
+[1] TRUE
+> 12!=14
+[1] TRUE
+> 12!=12
+[1] FALSE
+> 45<83
+[1] TRUE
+> 7<7
+[1] FALSE
+> 7<=7
+[1] TRUE
+> "Diganta"=="Diganta"
+[1] TRUE
+> "Diganta"=="Saswata"
+[1] FALSE
+
+
+
+
+VECTOR
+..............
+#VECTOR IS A R PROGRAMMING IS JUST LIST OF ITEMS
+........................................................
+b1<-c(1,2,3,4,5)
+b2<-c('Diganta','Saswata','Dipanjan')
+b1
+b2
+
+#Some Mathematical operations
+b1*2
+b1^2
