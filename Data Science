@@ -33,6 +33,8 @@ Arithmetic Operators
 addition
 subtra
 multiplica
+
+
 division
 remainder/modulus
 exponent
@@ -110,3 +112,70 @@ b2
 #Some Mathematical operations
 b1*2
 b1^2
+
+
+PLOTTING:
+..............
+bData<-read.csv("~/Data Sciecne Statictics/studentfile.csv",TRUE, ",")
+head(bData)
+hist(bData$id, main="Diganta Adak", xlab='id', ylab='act_math')
+
+
+
+
+DATA FRAME:
+....................
+id<-1:7
+age<-c(18,13,45,43,47,23,16)
+name<-c("Diganta","Saswata","Dipanjan","Chayanika","Mriganko","Babai","Papai")
+x=data.frame(id,age,name)
+x
+
+id<-1:7
+age<-c(18,13,45,43,47,23,16)
+name<-c("Diganta","Saswata","Dipanjan","Chayanika","Mriganko","Babai","Papai")
+x=data.frame(id,age,name)
+x
+
+nrow(x)  #number of rows
+ncol(x)  #number of columns 
+
+dim(x)   #Total number of rows and columns are printed together
+
+
+id<-1:7
+age<-c(18,13,45,43,47,23,16)
+name<-c("Diganta","Saswata","Dipanjan","Chayanika","Mriganko","Babai","Papai")
+x=data.frame(id,age,name)
+x
+names(x)[2]   #name of the second positions column will print before we click the run button 
+names(x)[1]
+names(x)[3]
+
+
+id<-1:7
+age<-c(18,13,45,43,47,23,16)
+name<-c("Diganta","Saswata","Dipanjan","Chayanika","Mriganko","Babai","Papai")
+x=data.frame(id,age,name)
+x
+head(x)
+tail(x)
+
+
+
+MORE ON DATAFRAMES
+.......................
+id<-1:7
+age<-c(18,13,45,43,47,23,16)
+name<-c("Diganta","Saswata","Dipanjan","Chayanika","Mriganko","Babai","Papai")
+x=data.frame(id,age,name)
+x
+
+x$age
+x[2]
+
+x[4,2]  #Row column
+x[3,1:3]
+class(x[,"age"])  #output=numeric
+class(x[,"name"])  #output=character
+
