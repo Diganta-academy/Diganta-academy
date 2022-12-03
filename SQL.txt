@@ -11,3 +11,56 @@ Attribute: Attribute has a name and data type that is called Attribute.
 Constraints: primary key,foreign key,unique,index,not null 
 
 #How to create a Table:
+............................
+
+mysql> 
+mysql> use sqlmca;
+Database changed
+mysql> create table emp(id int not null auto_increment,ename varchar(20),address varchar(30),primary key(id));
+Query OK, 0 rows affected (0.11 sec)
+
+mysql> desc emp;
++---------+-------------+------+-----+---------+----------------+
+| Field   | Type        | Null | Key | Default | Extra          |
++---------+-------------+------+-----+---------+----------------+
+| id      | int         | NO   | PRI | NULL    | auto_increment |
+| ename   | varchar(20) | YES  |     | NULL    |                |
+| address | varchar(30) | YES  |     | NULL    |                |
++---------+-------------+------+-----+---------+----------------+
+3 rows in set (0.01 sec)
+
+#How to table Deleted:---
+.........................
+mysql>  drop table emp;
+
+ create tabke Student(studentID int not null auto_increment,Fname varchar(50),Lname varchar(50),
+Address varchar(57),city varchar(67),marks int,primary key(studentID));
+
+select * from student;
++-----------+------------+-------+------------+-----------+-------+
+| studentID | Fname      | Lname | Address    | city      | marks |
++-----------+------------+-------+------------+-----------+-------+
+|         1 | Diganta    | Adak  | Gondalpara | Kolkata   |    61 |
+|         2 | Saswata    | Adak  | Gondalpara | Howrah    |    74 |
+|         3 | Rusindra   | Jana  | Domjur     | Kolkata   |    91 |
+|         4 | Rusiranjan | Jana  | Domjur     | Bangalore |    84 |
+|         5 | Dipanjan   | Adak  | Gondalpara | Howrah    |    83 |
+|         6 | Chayanika  | Adak  | Gondalpara | Howrah    |    71 |
+|         7 | Mriganko   | Neogi | Deulpur    | kolkata   |    90 |
++-----------+------------+-------+------------+-----------+-------+
+
+
+
+insert into Student values(1,'Diganta','Adak','Gondalpara','Kolkata',61);
+insert into Student values(2,'Saswata','Adak','Gondalpara','Howrah',74);
+insert into Student values(3,'Rusindra','Jana','Domjur','Kolkata',91);
+insert into Student values(4,'Rusiranjan','Jana','Domjur','Bangalore',84);
+insert into Student values(5,'Dipanjan','Adak','Gondalpara','Howrah',83);
+insert into Student values(6,'Chayanika','Adak','Gondalpara','Howrah',71);
+insert into Student values(7,'Mriganko','Neogi','Deulpur','kolkata',90);
+select * from Student;
+
+select fname from Student;
+select lname,fname from student;
+select fname from student where city='kolkata';
+select fname,lname from student where Address='gondalpara';
