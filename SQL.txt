@@ -1,0 +1,13 @@
+SQL:
+Table is a collection of data in a tabular format, it consists of rows and columns..the table
+contains data elements also called values.
+
+Tuples: A single row of a table which contains single record.
+
+Attribute: Attribute has a name and data type that is called Attribute.
+           example: Id, first_name,last_name, d.o.b
+
+
+Constraints: primary key,foreign key,unique,index,not null 
+
+#How to create a Table:
